@@ -1,3 +1,3 @@
 Build and install OpenTrack on Bazzite OS using Distrobox. This script adapts the standard (Fedora script)[https://github.com/TripleJumpStudios/Opentrack-Install-Script] build process for Bazzite's immutable nature. It creates a Fedora container, installs dependencies (Qt, OpenCV, ONNX, Wine-devel), compiles OpenTrack from source, and uses `distrobox-export` to integrate it with the host. Specifically used for programs that need wine as an output like Star Citizen.
 
-**Usage:** Run the script. Once finished, start OpenTrack from the Bazzite application menu `Run opentrack` or via `home/bazzite/opentrack-build-src/build/install/bin/opentrack`
+**Usage:** download the script from releases and run the script. Once finished, start OpenTrack from the Bazzite application menu `Run opentrack` or via `home/bazzite/opentrack-build-src/build/install/bin/opentrack`
